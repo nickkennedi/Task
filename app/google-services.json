@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "765885061983",
+    "project_id": "task-f9689",
+    "storage_bucket": "task-f9689.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765885061983:android:0182242f625dfc5a6cb4ea",
+        "android_client_info": {
+          "package_name": "com.nickkennedi.task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsXE7ohWmflxoVlt2skjHdA0IYD1WRrqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
