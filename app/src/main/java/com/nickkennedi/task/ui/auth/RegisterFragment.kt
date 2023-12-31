@@ -46,7 +46,7 @@ class RegisterFragment : Fragment() {
     // metodo responsavel por validar os dados do usuario
     private fun validateData(){
         val email = binding.edtEmail.text.toString().trim()
-        val password = binding.edtEmail.text.toString().trim()
+        val password = binding.edtPassword.text.toString().trim()
 
         if(email.isNotEmpty()){
             if(password.isNotEmpty()){
