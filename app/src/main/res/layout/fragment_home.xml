@@ -37,12 +37,12 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:background="@color/color_default"
-        android:contentDescription="button"
         android:paddingHorizontal="8dp"
         android:src="@drawable/ic_logout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

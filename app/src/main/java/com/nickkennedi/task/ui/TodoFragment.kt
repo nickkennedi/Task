@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.nickkennedi.task.R
 
 
-class TodoFragmment : Fragment() {
+class TodoFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -16,7 +16,7 @@ class TodoFragmment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_todo_fragmment, container, false)
+        return inflater.inflate(R.layout.fragment_todo_fragment, container, false)
     }
 
 

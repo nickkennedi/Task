@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.google.android.material.tabs.TabLayoutMediator
-import com.nickkennedi.task.R
 import com.nickkennedi.task.databinding.FragmentHomeBinding
 import com.nickkennedi.task.ui.adapter.ViewPagerAdapter
 
@@ -33,7 +32,7 @@ class HomeFragment : Fragment() {
         val adapter = ViewPagerAdapter(requireActivity())
         binding.viewPager.adapter = adapter
 
-        adapter.addFragment(TodoFragmment(), "A Fazer")
+        adapter.addFragment(TodoFragment(), "A Fazer")
         adapter.addFragment(DoingFragment(), "Fazendo")
         adapter.addFragment(DoneFragment(), "Feitas")
 
